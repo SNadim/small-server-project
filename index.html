@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <div class="form">
+                <form action="">
+                    <fieldset>
+                        <legend><h3>Leave a comment</h3></legend>
+                        <p>Name: <input id="name" placeholder="Enter Your Name" type="text"></p>
+                        <p>Telephone: <input id="telephone" placeholder="Enter Your telephone" type="tel"></p>
+                        <p>Email: <input id="email" placeholder="Enter your email" type="email"></p>
+                    </fieldset>
+                    <label for="comment">Leave a comment!</label>
+                     <p><textarea name="comment" id="comment" cols="30" rows="10"></textarea></p>
+                     <div id="submit" type="submit">Comment</div>
+                </form>
+            </div>
+        </section>
+        <section class="container">
+            <h1>Users Comments</h1>
+            <ul id="comments">
+            </ul>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
